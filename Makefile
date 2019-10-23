@@ -2,9 +2,8 @@
 # KDIR ?=
 
 CC	:= $(CROSS_COMPILE)gcc
-# CFLAGS	= -O2 -W -Wall -std=gnu99 -I$(KDIR)/usr/include -I/usr/include/libdrm
-#CFLAGS	= -O2 -W -Wall -std=gnu99 -I$(KDIR)/usr/include -I/usr/include/libdrm
-CFLAGS	= -O2 -W -Wall -std=gnu99 
+CFLAGS	= -O2 -W -Wall -std=gnu99 -I$(KDIR)/usr/include -I/usr/include/libdrm
+#CFLAGS	= -O2 -W -Wall -std=gnu99 
 LDFLAGS	=
 LIBS	= -lrt -ldrm
 
